@@ -10,7 +10,7 @@ import { router } from './routes'
 export function App() {
   return (
     <HelmetProvider>
-      <ThemeProvider defaultTheme="dark" storageKey="">
+      <ThemeProvider defaultTheme="dark" storageKey="pizzashop-theme">
         <Helmet titleTemplate="%s | pizza.shop" />
         <Toaster richColors />
         <RouterProvider router={router} />
