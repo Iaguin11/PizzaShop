@@ -27,7 +27,7 @@ export interface OrderDetailsProps {
   open: boolean
 }
 
-export function OrderDetails({ orderId, open }: OrderDetailsProps) {
+export function OrderDetails({ orderId }: OrderDetailsProps) {
   const { data: order } = useQuery({
     queryKey: ['order', orderId],
     queryFn: () => getOrderDetails({ orderId }),

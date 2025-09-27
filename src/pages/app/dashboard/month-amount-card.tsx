@@ -1,5 +1,4 @@
 import { useQuery } from '@tanstack/react-query'
-import { error } from 'console'
 import { Utensils } from 'lucide-react'
 
 import { getMonthOrdersAmount } from '@/api/get-month-orders-amount'
